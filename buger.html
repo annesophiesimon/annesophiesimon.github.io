@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title> Mon delicieux burger</title>
+    <style>
+      div {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+      }
+      #assiette {
+        background-color: #656565;
+        height: 20px;
+        width: 500px;
+        margin: 0px auto 50px auto;
+        border-radius: 0 0 30px 30px;
+      }
+      .pain-haut {
+      border-radius:90px 90px 10px 10px;
+      width:400px;
+      height:65px;
+      border-bottom: #CCA849 20px solid;
+      background-color:#E4BC50;
+
+      }
+      .pain-bas {
+        border-radius: 0px 0px 40px 40px;
+        width:400px;
+        height:30px;
+        border-top: #CCA849 20px solid;
+        background-color:#E4BC50;
+
+
+      }
+      .steak {
+        border-radius:20px;
+        width:405px;
+        height:40px;
+        background-color:#B53400;
+        border-bottom: #A22F00 solid 4px;
+
+      }
+      #cornichon {
+        border-radius:10px 10px 100px 100px;
+        width:300px;
+        height:30px;
+        border-bottom: #00A65E 15px solid;
+        background-color:#00D778;
+
+      }
+      #boulettes {
+        text-align: center;
+      }
+      .boulette {
+        background: #783D03;
+        border-radius:50%;
+        width:80px;
+        height:80px;
+        display: inline-block;
+      }
+      #oignon{
+        background-color: #B700C2;
+        width: 250px;
+        height: 25px;
+      }
+      .rond{
+        background: #C800CF;
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+        display: inline-block;
+        margin-right: 12px;
+
+      }
+      .fromage {
+        width:405px;
+        height:20px;
+        background-color:#EDD300;
+        border-bottom: #D4BD00 solid 4px;
+      }
+
+      #tomate {
+        width:300px;
+        height:30px;
+        background-color:#E92700;
+        border-bottom: #D02400 solid 4px;
+
+      }
+form {
+  text-align: center;
+  color: #FFF;
+  font-family: monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 8px;
+}
+
+label {
+  color: #FFF;
+  font-family: monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 8px;
+
+}
+input{
+  text-align: center;
+}
+#assiette p {
+  text-align: center;
+  color: #FFF;
+  font-family: monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+}
+textarea {
+  width: 218px;
+  height: 33px;
+}
+    </style>
+<!--    <form action="" method="get">
+  <label for="GET-name">Nom :</label>
+  <input id="GET-name" type="text" name="name">
+  <input type="submit" value="Enregistrer">
+</form>-->
+
+  </head>
+  <body>
+      <div class="pain-haut">
+        <form action="" method="get">
+        <p> Pour me recruter </br>
+          remplissez ce formulaire </p>
+      </div>
+
+      <div class="fromage"></div>
+      <div id="tomate">
+        <label for=""> Mail : </label>
+        <input id="" type="email" name="email">
+      </div>
+      <div class="fromage">
+
+      </div>
+      <div class="fromage">
+        <label for=""> Prenom : </label>
+        <input id="" type="text" name="prenom">
+
+       </div>
+      <div class="fromage">
+
+      </div>
+
+
+    <div id="oignon">
+      <div class="rond">
+      </div>
+      <div class="rond">
+      </div>
+      <div class="rond">
+      </div>
+      <div class="rond">
+      </div>
+      <div class="rond">
+      </div>
+      <div class="rond">
+      </div>
+    </div>
+    <div id="boulettes">
+      <div class="boulette">
+        <form>
+        <input name="sexe" type="radio" id="femme">
+        <label></br> FEMME </label>
+      </div>
+      <div class="boulette">
+        <input name="sexe" type="radio" id="homme">
+        <label></br> HOMME </label>
+
+
+      </div>
+      <div class="boulette">
+        <input name="sexe" type="radio" id="indefini">
+        <label></br> indefini </label>
+      </form>
+
+
+
+      </div>
+    </div>
+
+
+      <div id="cornichon">
+        <select name="ville" id="ville">
+
+          <label for="pays">Dans quel ville habitez-vous ?</label><br/>
+           <option value="france">Sarcelles</option>
+
+           <option value="espagne">Epinay</option>
+
+           <option value="italie">Saint-Gratien</option>
+
+        </select>
+      </div>
+
+      <div class="steak">
+        <label for=""> Votre message : </label>
+      </div>
+      <div class="steak">
+      <textarea id="" type="text" name="message">
+        </textarea>
+
+      </div>
+      <div class="pain-bas">
+        <input type="submit" value="Envoyer">
+      </form>
+
+
+      </div>
+      <div id="assiette">
+        <p> Merci et à bientôt </p>
+      </div>
+
+  </body>
+
+</html>
